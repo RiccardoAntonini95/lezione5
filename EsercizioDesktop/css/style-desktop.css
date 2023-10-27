@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+body{
+    text-align: center;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+h3,p{
+    font-size: 0.7em;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: top;
+    background-size: 100%;
+    padding: 135px 300px;
+}
+
+#banner h1{
+    line-height: 1.1;
+    margin-bottom: 11px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 25px;
+    font-size: 1.3em;
+}
+
+#banner p{
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+#banner a{
+    color: white;
+    display: inline-block;
+    background-color: #f04c2f;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'montserrat', bold;
+    text-transform: uppercase;
+    padding: 9px 24px;
+    font-size: 0.6em;
+}
+
+section{
+    padding: 0 20px;
+}
+
+section h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section h3:first-child{
+    margin-top: 40px;
+}
+
+section img{
+    margin-top: 20px;
+    float: left;
+}
+
+.paragrafi{
+    display: inline;
+    font-size: 0.8em;
+    text-align: start;
+}
+
+#logo{
+    background-color: black;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+section img{
+    border-radius: 102px;
+}
+
+#testimonianze{
+    background-color: #e22d0e;
+    color: white;
+    margin: 40px 0;
+    padding: 50px 11px;
+}
+
+#testimonianze h2{
+    color: white;
+}
+
+#testimonianze p:last-child{
+    font-size: 0.4em;
+}
+
+#testimonianze blockquote p:first-child{
+    font-style: italic;
+    padding: 20px 0;
+    font-size: 0.6em;
+}
+aside div{
+    margin: 30px 16px;
+    border: 1px solid #dee1e3;
+    padding-bottom: 40px;
+    display: inline-block;
+    width: 26%;
+    font-size: 0.8em;
+}
+
+aside div img{
+    width: 100%;
+    max-height: 131.32px;
+}
+
+aside p{
+    font-size: 0.7em;
+    padding-top: 9px;
+}
+
+aside h3{
+    padding-top: 8px;
+}
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+footer h2{
+    color: white;
+    font-size: 1.4em;
+    padding-bottom: 14px;
+}
+
+footer ul{
+    font-size: 0.8em;
+}
+
+address{
+    padding: 0 450px;
+    text-align: start;
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+address p{
+    font-size: 0.7em;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+address ul li{
+    text-decoration: none;
+}
+
+#speciala{
+    text-decoration: none;
+}
+
+hr{
+    width: 25%;
+    border: 1px solid #c8e7f0;
+}
